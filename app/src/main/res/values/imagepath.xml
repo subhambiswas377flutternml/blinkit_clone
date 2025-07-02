@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_logo">file:///android_asset/images/app_logo.svg</string>
+    <string name="item_banner">images/items_banner.jpg</string>
+    <string name="app_icon">icons/blinkit_logo.png</string>
+    <string name="mic_icon">file:///android_asset/icons/mic.svg</string>
+    <string name="search_icon">file:///android_asset/icons/search.svg</string>
 </resources>

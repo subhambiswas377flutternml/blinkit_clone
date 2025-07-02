@@ -11,7 +11,7 @@ import coil.request.ImageRequest
 import com.app.blinkit.core.SvgLoader
 
 @Composable
-fun SvgImage(imageUrl:String, modifier: Modifier = Modifier){
+fun AssetSvgView(imageUrl:String, modifier: Modifier = Modifier){
     val context: Context = LocalContext.current
 
     val painter = rememberAsyncImagePainter(
