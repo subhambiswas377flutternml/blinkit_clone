@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import java.io.IOException
 
@@ -30,6 +31,7 @@ fun AssetImageView(imagePath: String, modifier:Modifier = Modifier) {
             bitmap = it,
             contentDescription = null,
             modifier = modifier,
+            contentScale = ContentScale.FillBounds,
         )
     } ?: Text("Image not found")
 }

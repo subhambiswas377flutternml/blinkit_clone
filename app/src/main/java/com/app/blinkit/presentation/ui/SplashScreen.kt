@@ -21,17 +21,12 @@ import kotlinx.coroutines.delay
 fun SplashScreen(navController:NavHostController){
 
      LaunchedEffect(Unit) {
-          delay(1000L)
-          navController.navigate(AppRoutes.LandingRoute){
+          delay(2000L)
+          navController.navigate(AppRoutes.AuthRoute){
                popUpTo(AppRoutes.SplashRoute){
                     inclusive = true
                }
           }
-//          navController.navigate(AppRoutes.AuthRoute){
-//               popUpTo(AppRoutes.SplashRoute){
-//                    inclusive = true
-//               }
-//          }
      }
 
      Scaffold(containerColor = colorResource(R.color.primary)){ innerPadding->

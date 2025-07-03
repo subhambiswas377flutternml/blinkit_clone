@@ -10,4 +10,7 @@
 
     <color name="primary">#F7CB45</color>
     <color name="dark_grey">#36454F</color>
+    <color name="text_grey">#9C9C9C</color>
+    <color name="category_bg">#D9EBEB</color>
+    <color name="bg_beige">#FBF0CE</color>
 </resources>
